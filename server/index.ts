@@ -4,7 +4,7 @@ import { setupVite, serveStatic, log } from "./vite";
 
 // Set SendGrid API key if not already set
 if (!process.env.SENDGRID_API_KEY) {
-  process.env.SENDGRID_API_KEY = "";
+  process.env.SENDGRID_API_KEY = "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";
 }
 
 const app = express();
